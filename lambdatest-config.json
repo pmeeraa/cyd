@@ -27,6 +27,7 @@
       "ignore_files": "",
       "network": false,
       "headless": false,
+      "download": "./cypress/results",
       "npm_dependencies": {
          "cypress": "9.6"
       }
