@@ -4,7 +4,7 @@
   "reporterOptions": {
     "reportDir": "cypress/report",
     "charts": true,
-    "reportPageTitle": "JoanMedia Demo Report",
+    "reportPageTitle": "Meera Demo Report",
     "embeddedScreenshots": true
   }
 }

@@ -1,9 +1,9 @@
 {
-   "reporterEnabled": "mochawesome",
-   "mochawesomeReporterOptions": {
-      "reportDir": "cypress/results/mochawesome",
-      "overwrite": true,
-      "html": true,
-      "json": true
+   "reporter": "cypress-mochawesome-reporter",
+   "reporterOptions": {
+      "reportDir": "cypress/report",
+      "charts": true,
+      "reportPageTitle": "Meera Demo Report",
+      "embeddedScreenshots": true
    }
 }
