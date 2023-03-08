@@ -48,7 +48,8 @@
     "ci:set-port": "node ./scripts/set-port",
     "semantic-release": "semantic-release",
     "cy:report": "npm run cleanup && npm run cy_dashboard && npm run merge_reports && npm run mochawesome_report",
-    "testcypress": "lambdatest-cypress run"
+    "testcypress": "lambdatest-cypress run",
+    "cypress:runChrome": "cypress run --spec cypress/integration/examples/actions.spec.js"
   },
   "repository": {
     "type": "git",

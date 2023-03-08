@@ -1,3 +1,10 @@
 {
-  "projectId": "n54w4o"
+  "projectId": "n54w4o",
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/report",
+    "charts": true,
+    "reportPageTitle": "JoanMedia Demo Report",
+    "embeddedScreenshots": true
+  }
 }
